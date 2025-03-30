@@ -24,6 +24,13 @@ try {
         reset_expires TEXT
     )');
 
+    // Create sessions table
+    $pdo->exec('CREATE TABLE IF NOT EXISTS sessions (
+        session_id TEXT PRIMARY KEY,
+        data TEXT,
+        timestamp INTEGER
+    )');
+
     echo "Database initialized successfully!\n";
 } catch (PDOException $e) {
     echo "Error: " . $e->getMessage() . "\n";
