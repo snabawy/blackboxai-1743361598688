@@ -16,6 +16,19 @@ if (DB_TYPE === 'mysql') {
 define('BASE_URL', 'http://localhost:8000');
 define('DEBUG_MODE', true);
 
+// Session configuration
+require_once __DIR__.'/includes/new_database.php';
+ini_set('session.save_handler', 'user');
+session_set_save_handler(
+    ['NewDatabase', 'open'],
+    ['NewDatabase', 'close'], 
+    ['NewDatabase', 'read'],
+    ['NewDatabase', 'write'],
+    ['NewDatabase', 'destroy'],
+    ['NewDatabase', 'gc']
+);
+register_shutdown_function('session_write_close');
+
 // Verify database connection
 try {
     if (DB_TYPE === 'mysql') {
