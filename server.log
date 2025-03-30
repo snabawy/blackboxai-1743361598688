@@ -1,0 +1,109 @@
+[Sun Mar 30 19:22:37 2025] PHP 8.2.13 Development Server (http://localhost:8000) started
+[Sun Mar 30 19:22:38 2025] [::1]:37918 Accepted
+[Sun Mar 30 19:22:38 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:22:38 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:22:38 2025] [::1]:37918 [302]: GET /?_t=1743362558184
+[Sun Mar 30 19:22:38 2025] [::1]:37918 Closing
+[Sun Mar 30 19:22:38 2025] [::1]:37926 Accepted
+[Sun Mar 30 19:22:38 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:22:38 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:22:38 2025] [::1]:37926 [302]: GET /?_t=1743362558430
+[Sun Mar 30 19:22:38 2025] [::1]:37926 Closing
+[Sun Mar 30 19:22:39 2025] [::1]:37928 Accepted
+[Sun Mar 30 19:22:39 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:22:39 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:22:39 2025] [::1]:37928 [200]: GET /login.php
+[Sun Mar 30 19:22:39 2025] Session write attempt for ID: ndd5dr3h4rml5k9ck357rcoc10
+[Sun Mar 30 19:22:39 2025] Session write result: success
+[Sun Mar 30 19:22:39 2025] [::1]:37928 Closing
+[Sun Mar 30 19:22:41 2025] [::1]:37930 Accepted
+[Sun Mar 30 19:22:41 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:22:41 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:22:41 2025] [::1]:37930 [302]: GET /?_t=1743362559394
+[Sun Mar 30 19:22:41 2025] [::1]:37930 Closing
+[Sun Mar 30 19:22:41 2025] [::1]:37944 Accepted
+[Sun Mar 30 19:22:41 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:22:41 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:22:41 2025] [::1]:37944 [200]: GET /login.php
+[Sun Mar 30 19:22:41 2025] Session write attempt for ID: k5t15h313tvm4jji5qtpe44r2k
+[Sun Mar 30 19:22:41 2025] Session write result: success
+[Sun Mar 30 19:22:41 2025] [::1]:37944 Closing
+[Sun Mar 30 19:22:42 2025] [::1]:37948 Accepted
+[Sun Mar 30 19:22:42 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:22:42 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:22:42 2025] [::1]:37948 [302]: GET /?_t=1743362561799
+[Sun Mar 30 19:22:42 2025] [::1]:37948 Closing
+[Sun Mar 30 19:22:42 2025] [::1]:37954 Accepted
+[Sun Mar 30 19:22:42 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:22:42 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:22:42 2025] [::1]:37954 [200]: GET /login.php
+[Sun Mar 30 19:22:42 2025] Session write attempt for ID: jcsrs2mnj2tfchorvs0s1qdfd3
+[Sun Mar 30 19:22:42 2025] Session write result: success
+[Sun Mar 30 19:22:42 2025] [::1]:37954 Closing
+[Sun Mar 30 19:22:55 2025] [::1]:45528 Accepted
+[Sun Mar 30 19:22:55 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:22:55 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:22:55 2025] [::1]:45528 [302]: GET /
+[Sun Mar 30 19:22:55 2025] [::1]:45528 Closing
+[Sun Mar 30 19:22:55 2025] [::1]:45544 Accepted
+[Sun Mar 30 19:22:55 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:22:55 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:22:55 2025] [::1]:45544 [200]: GET /login.php
+[Sun Mar 30 19:22:55 2025] Session write attempt for ID: mn1bk2a6rp4rb8nlnlhm3heutq
+[Sun Mar 30 19:22:55 2025] Session write result: success
+[Sun Mar 30 19:22:55 2025] [::1]:45544 Closing
+[Sun Mar 30 19:23:00 2025] [::1]:58354 Accepted
+[Sun Mar 30 19:23:00 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:23:00 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:23:00 2025] [::1]:58354 [200]: GET /forgot-password.php
+[Sun Mar 30 19:23:00 2025] Session write attempt for ID: mn1bk2a6rp4rb8nlnlhm3heutq
+[Sun Mar 30 19:23:00 2025] Session write result: success
+[Sun Mar 30 19:23:00 2025] [::1]:58354 Closing
+[Sun Mar 30 19:23:11 2025] [::1]:44868 Accepted
+[Sun Mar 30 19:23:11 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:23:11 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:23:11 2025] [::1]:44868 [302]: GET /?_t=1743362580672
+[Sun Mar 30 19:23:11 2025] [::1]:44868 Closing
+[Sun Mar 30 19:23:11 2025] [::1]:44878 Accepted
+[Sun Mar 30 19:23:11 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:23:11 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:23:11 2025] [::1]:44878 [200]: GET /login.php
+[Sun Mar 30 19:23:11 2025] Session write attempt for ID: vsno30djv3r63h4tcip0u5kas5
+[Sun Mar 30 19:23:11 2025] Session write result: success
+[Sun Mar 30 19:23:11 2025] [::1]:44878 Closing
+[Sun Mar 30 19:23:11 2025] [::1]:44894 Accepted
+[Sun Mar 30 19:23:11 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:23:11 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:23:11 2025] [::1]:44894 [302]: GET /?_t=1743362591646
+[Sun Mar 30 19:23:11 2025] [::1]:44894 Closing
+[Sun Mar 30 19:23:12 2025] [::1]:44906 Accepted
+[Sun Mar 30 19:23:12 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:23:12 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:23:12 2025] [::1]:44906 [200]: GET /login.php
+[Sun Mar 30 19:23:12 2025] Session write attempt for ID: c72k6q94fds637vl6g0fo5ti2f
+[Sun Mar 30 19:23:12 2025] Session write result: success
+[Sun Mar 30 19:23:12 2025] [::1]:44906 Closing
+[Sun Mar 30 19:23:14 2025] [::1]:44914 Accepted
+[Sun Mar 30 19:23:14 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:23:14 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:23:14 2025] [::1]:44914 [302]: GET /?_t=1743362592374
+[Sun Mar 30 19:23:14 2025] [::1]:44914 Closing
+[Sun Mar 30 19:23:14 2025] [::1]:44926 Accepted
+[Sun Mar 30 19:23:14 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:23:14 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:23:14 2025] [::1]:44926 [200]: GET /login.php
+[Sun Mar 30 19:23:14 2025] Session write attempt for ID: c9o7tna6hbiioqf4l17u09ieor
+[Sun Mar 30 19:23:14 2025] Session write result: success
+[Sun Mar 30 19:23:14 2025] [::1]:44926 Closing
+[Sun Mar 30 19:23:14 2025] [::1]:44928 Accepted
+[Sun Mar 30 19:23:14 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:23:14 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:23:14 2025] [::1]:44928 [302]: GET /?_t=1743362594125
+[Sun Mar 30 19:23:14 2025] [::1]:44928 Closing
+[Sun Mar 30 19:23:14 2025] [::1]:44934 Accepted
+[Sun Mar 30 19:23:14 2025] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Sun Mar 30 19:23:14 2025] PHP Warning:  ini_set(): Session save handler &quot;user&quot; cannot be set by ini_set() in /project/sandbox/user-workspace/config.php on line 21
+[Sun Mar 30 19:23:14 2025] [::1]:44934 [200]: GET /login.php
+[Sun Mar 30 19:23:14 2025] Session write attempt for ID: 2cgsmmh81spt88io4hqlufjfhb
+[Sun Mar 30 19:23:14 2025] Session write result: success
+[Sun Mar 30 19:23:14 2025] [::1]:44934 Closing
