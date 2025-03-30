@@ -33,5 +33,47 @@ class NewDatabase {
     public function fetchAll($stmt) {
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
+
+    // Session handler methods
+    public static function open($savePath, $sessionName) {
+        return true;
+    }
+
+    public static function close() {
+        return true;
+    }
+
+    public static function read($id) {
+        $db = new self();
+        $stmt = $db->query("SELECT data FROM sessions WHERE session_id = ?", [$id]);
+        $data = $stmt->fetchColumn();
+        return $data ?: '';
+    }
+
+    public static function write($id, $data) {
+        error_log("Session write attempt for ID: $id");
+        $db = new self();
+        $timestamp = time();
+        $result = $db->query(
+            "REPLACE INTO sessions (session_id, data, timestamp) VALUES (?, ?, ?)",
+            [$id, $data, $timestamp]
+        ) !== false;
+        error_log("Session write result: " . ($result ? "success" : "failed"));
+        if (!$result) {
+            error_log("PDO Error: " . json_encode($db->pdo->errorInfo()));
+        }
+        return $result;
+    }
+
+    public static function destroy($id) {
+        $db = new self();
+        return $db->query("DELETE FROM sessions WHERE session_id = ?", [$id]) !== false;
+    }
+
+    public static function gc($maxlifetime) {
+        $db = new self();
+        $old = time() - $maxlifetime;
+        return $db->query("DELETE FROM sessions WHERE timestamp < ?", [$old]) !== false;
+    }
 }
 ?>
